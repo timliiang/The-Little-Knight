@@ -1,4 +1,4 @@
-# ICS3U1-Summative
+# The-Little-Knight
  
 The Little Knight is a replica of the game Hollow Knight made using Pygame Zero. The game also contains many sprites and music files copied from the original game.
 
