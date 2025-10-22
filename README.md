@@ -2,6 +2,7 @@
 The Little Knight is a 2D platformer that tries to bring 4D elements of design along with it. It was also a project submission for a "Introduction to Programming" highschool course's summative assignment.
 It is inspired by the game Hollow Knight with most of this project's content containing sprites and music files from Hollow Knight.
 
+<img width="1272" height="743" alt="image" src="https://github.com/user-attachments/assets/92358707-44b1-451d-ac61-810842905a5e" />
 
 # How It's Made:
 This project was made entirely using Python with help from the Pygame-zero library.
@@ -18,10 +19,16 @@ Player movement
 - Next was the player's ability to jump which happened to be one of my favourite implementations. This was another part of the player's movements complemented with the gravity component. The intial process for this was just to move the player upwards at a constant speed until they reach their max jump height. However, just like with the gravity, it seemed unrealistic. In a similar way to gravity, I then decided to implement the player's movement when jumping and falling as if it were a parabola. At the highest point, the player would seem like the were floating and they move at a slower rate, then as they fall, they fall at a accelerating pace. This was by far one of my proudest parts of the player's movement in the game matching the movements of the player with the movements of a parabola.
 - Another cool feature I added was the stun when the player would fall from a high height. This was a small detail in the original game that I thought would be a cool feature. How I decided to implement this was to check the player's airtime as they touch the ground to see if they stayed in the air past a certain time.
 
+<img width="1273" height="749" alt="image" src="https://github.com/user-attachments/assets/a4b2faf8-5a61-486a-81f1-c40a8c5ec0fc" />
+
+
 Player combat
 - First was the player's attack. This consisted of a slash which extended from the player's sprite. This was done through hitbox detection where the slash would act as a seperate entity and if it collided with another entity that was hittable, it would damage it.
 - Next was the player being able to get hurt. Similar to how the player attacked, I added a hitbox for the player and whenever an enemy entity collided with the player hitbox, it hurts the player.
 I had also intended to add another function the player's combat where the player was able to shoot a long-ranged spell similar to Hollow Knight. However, due to time constraints, I wasn't able to fit that into the game for the final submission.
+
+<img width="1279" height="754" alt="image" src="https://github.com/user-attachments/assets/66cbc37f-34d0-429b-a783-5e0292a9b4cd" />
+
 
 Boss/Enemy
 Inspired by another game genre, Dark Souls, I wanted to introduce the character straight away to a challenge. This meant that the first enemy they encountered was a boss immediately testing the player's skills.
@@ -30,11 +37,16 @@ This boss was the Grub Mother from Hollow Knight, which consisted of two attacks
 - The second attack was when the Grub Mother would charge towards the player's location. I implemented this by comparing the player and the bosses' location, then moved the boss towards the player at a faster speed.
 Overall, the boss design was another really fun process which I would love to do again. It used many of the skills and techniques I used for creating the player's movements in a more elaborate and creative way.
 
+<img width="1272" height="748" alt="image" src="https://github.com/user-attachments/assets/8d0e7690-ca3a-4bec-b100-5ac945cd052f" />
+
+
 Finally, the **end design**. This was where I made final touches and added some smaller details to the game to enhance user experience.
 - I added a starting menu for when the user first enters the game. This just detected the user's mouse click collisions with the buttons.
 - Another cool feature was the animations for the characters. This was done through using a function which looped through all the characters animation frames. Each movement had a different frame speed so I had to account for that as well as the direction.
 - Music was also added to the game depending on the player's location in-game. For example, the menu music would be different from the music when the player is fighting the boss battle.
 - Last is the story line. I added npcs with different lines to steer the player towards the right direction in-game and to add a story element into the game.
+
+<img width="1269" height="740" alt="image" src="https://github.com/user-attachments/assets/432d7b33-62e9-4d75-adfc-bd0f0f870c4b" />
 
 
 # Lessons Learned:
