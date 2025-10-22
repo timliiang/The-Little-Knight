@@ -4,6 +4,8 @@ It is inspired by the game Hollow Knight with most of this project's content con
 
 <img width="1272" height="743" alt="image" src="https://github.com/user-attachments/assets/92358707-44b1-451d-ac61-810842905a5e" />
 
+
+
 # How It's Made:
 This project was made entirely using Python with help from the Pygame-zero library.
 
@@ -22,12 +24,14 @@ Player movement
 <img width="1273" height="749" alt="image" src="https://github.com/user-attachments/assets/a4b2faf8-5a61-486a-81f1-c40a8c5ec0fc" />
 
 
+
 Player combat
 - First was the player's attack. This consisted of a slash which extended from the player's sprite. This was done through hitbox detection where the slash would act as a seperate entity and if it collided with another entity that was hittable, it would damage it.
 - Next was the player being able to get hurt. Similar to how the player attacked, I added a hitbox for the player and whenever an enemy entity collided with the player hitbox, it hurts the player.
 I had also intended to add another function the player's combat where the player was able to shoot a long-ranged spell similar to Hollow Knight. However, due to time constraints, I wasn't able to fit that into the game for the final submission.
 
 <img width="1279" height="754" alt="image" src="https://github.com/user-attachments/assets/66cbc37f-34d0-429b-a783-5e0292a9b4cd" />
+
 
 
 Boss/Enemy
@@ -40,6 +44,7 @@ Overall, the boss design was another really fun process which I would love to do
 <img width="1272" height="748" alt="image" src="https://github.com/user-attachments/assets/8d0e7690-ca3a-4bec-b100-5ac945cd052f" />
 
 
+
 Finally, the **end design**. This was where I made final touches and added some smaller details to the game to enhance user experience.
 - I added a starting menu for when the user first enters the game. This just detected the user's mouse click collisions with the buttons.
 - Another cool feature was the animations for the characters. This was done through using a function which looped through all the characters animation frames. Each movement had a different frame speed so I had to account for that as well as the direction.
@@ -47,6 +52,7 @@ Finally, the **end design**. This was where I made final touches and added some 
 - Last is the story line. I added npcs with different lines to steer the player towards the right direction in-game and to add a story element into the game.
 
 <img width="1269" height="740" alt="image" src="https://github.com/user-attachments/assets/432d7b33-62e9-4d75-adfc-bd0f0f870c4b" />
+
 
 
 # Lessons Learned:
